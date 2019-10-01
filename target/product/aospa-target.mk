@@ -54,7 +54,9 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 DONT_DEXPREOPT_PREBUILTS := true
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    ParanoidSystemUI
+    Launcher3QuickStep \
+    ParanoidSystemUI \
+    Settings
 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.systemuicompilerfilter=speed
