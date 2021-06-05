@@ -43,3 +43,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Increase volume level steps
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.media_vol_steps=30
+
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+# Disable extra StrictMode features on all non-engineering builds
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.strictmode.disable=true
+endif
