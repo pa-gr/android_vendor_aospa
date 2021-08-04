@@ -68,3 +68,7 @@ PRODUCT_PACKAGES += \
 # WiFi
 PRODUCT_PACKAGES += \
     libwpa_client
+
+# Navigation
+PRODUCT_PACKAGES += \
+    NavigationBarMode2ButtonOverlay
