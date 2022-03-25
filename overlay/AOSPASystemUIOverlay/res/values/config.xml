@@ -33,4 +33,9 @@
     <!-- SystemUI vendor service, used in config_systemUIServiceComponents. -->
     <string name="config_systemUIVendorServiceComponent">co.aospa.android.systemui.AospaServices</string>
 
+    <!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        internet,bt,dnd,flashlight,rotation,battery,airplane,controls,wallet,night,dark,screenrecord,cast,custom(com.google.android.gms/.nearby.sharing.SharingTileService),mictoggle,cameratoggle,location,hotspot
+    </string>
+
 </resources>
