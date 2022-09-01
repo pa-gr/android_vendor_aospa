@@ -106,4 +106,7 @@
          activated. -->
     <integer name="config_nightDisplayColorTemperatureDefault">2650</integer>
 
+    <!-- Fingerprint from a certified device against current platform SPL level (Pixel 6 Pro) -->
+    <string name="config_certifiedFingerprint" translatable="false">google/raven/raven:13/TP1A.220624.021/8877034:user/release-keys</string>
+
 </resources>
