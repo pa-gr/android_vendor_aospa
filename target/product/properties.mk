@@ -48,10 +48,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.media_vol_steps=30
 
-# Disable remote keyguard animation
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.wm.enable_remote_keyguard_animation=0
-
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Disable extra StrictMode features on all non-engineering builds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
