@@ -20,9 +20,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
-# curl
+# Extra tools
 PRODUCT_PACKAGES += \
-    curl
+    curl \
+    vim
 
 # Exfat FS
 PRODUCT_PACKAGES += \
