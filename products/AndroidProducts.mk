@@ -24,7 +24,8 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk \
     $(LOCAL_DIR)/oriole/aospa_oriole.mk \
     $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
-    $(LOCAL_DIR)/raven/aospa_raven.mk
+    $(LOCAL_DIR)/raven/aospa_raven.mk \
+    $(LOCAL_DIR)/renoir/aospa_renoir.mk \
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
@@ -38,4 +39,5 @@ COMMON_LUNCH_CHOICES += \
     aospa_oneplus9pro-userdebug \
     aospa_oriole-userdebug \
     aospa_phoenix-userdebug \
-    aospa_raven-userdebug
+    aospa_raven-userdebug \
+    aospa_renoir-userdebug
