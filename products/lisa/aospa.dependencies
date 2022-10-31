@@ -3,13 +3,13 @@
         "remote":       "github",
         "repository":   "ghostrider-reborn/device_xiaomi_lisa",
         "target_path":  "device/xiaomi/lisa",
-        "revision":     "topaz"
+        "revision":     "dj/staging"
     },
     {
         "remote":       "github",
         "repository":   "ghostrider-reborn/device_xiaomi_K9-sepolicy",
         "target_path":  "device/xiaomi/K9-sepolicy",
-        "revision":     "topaz"
+        "revision":     "taro-merge"
     },
     {
         "remote":       "github",
