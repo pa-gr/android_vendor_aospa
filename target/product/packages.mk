@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 
 # Extra tools
 PRODUCT_PACKAGES += \
+    bash \
     curl \
     vim
 
