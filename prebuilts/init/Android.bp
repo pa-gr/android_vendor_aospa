@@ -13,7 +13,7 @@
 // limitations under the License.
 
 prebuilt_etc {
-    name: "init.aospa-hub.rc",
-    src: "init.aospa-hub.rc",
+    name: "init.aospa.rc",
+    src: "init.aospa.rc",
     sub_dir: "init",
 }
