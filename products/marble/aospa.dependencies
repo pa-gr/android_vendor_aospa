@@ -1,16 +1,15 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_marble",
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/device_xiaomi_marble",
         "target_path":  "device/xiaomi/marble",
         "revision":     "topaz"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_marble-kernel",
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/device_xiaomi_marble-kernel",
         "target_path":  "device/xiaomi/marble-kernel",
-        "revision":     "topaz",
-        "clone-depth":  "1"
+        "revision":     "topaz"
     },
     {
         "remote":       "aospa",
@@ -37,8 +36,8 @@
         "revision":     "topaz-8450"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_xiaomi",
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/android_hardware_xiaomi",
         "target_path":  "hardware/xiaomi",
         "revision":     "topaz"
     },
@@ -61,17 +60,15 @@
         "revision":     "topaz-8450"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi",
-        "revision":     "topaz",
-        "clone-depth":  "1"
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/vendor_xiaomi_marble",
+        "target_path":  "vendor/xiaomi/marble",
+        "revision":     "topaz"
     },
     {
-        "remote":       "blobs-gitlab",
-        "repository":   "proprietary_vendor_xiaomi_camera",
+        "remote":       "gitlab",
+        "repository":   "ghostrider-reborn/proprietary_vendor_xiaomi_camera",
         "target_path":  "vendor/xiaomi/camera",
-        "revision":     "topaz-leica",
-        "clone-depth":  "1"
+        "revision":     "topaz-leica"
     }
 ]
