@@ -100,17 +100,6 @@
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">8</integer>
 
-    <!-- Build properties from a GMS certified device against current platform SPL level -->
-    <string-array name="config_certifiedBuildProperties" translatable="false">
-        <item>PRODUCT:mata</item>
-        <item>DEVICE:mata</item>
-        <item>MANUFACTURER:Essential Products</item>
-        <item>BRAND:essential</item>
-        <item>MODEL:PH-1</item>
-        <item>FINGERPRINT:essential/mata/mata:8.1.0/OPM1.180104.092/224:user/release-keys</item>
-        <item>VERSION.SECURITY_PATCH:2018-03-05</item>
-    </string-array>
-
     <!-- Colon separated list of package names that should be granted Notification Listener access -->
     <string name="config_defaultListenerAccessPackages" translatable="false">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead:com.android.launcher3:co.aospa.glyph</string>
 
