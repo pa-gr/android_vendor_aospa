@@ -70,5 +70,11 @@
         "repository":   "ghostrider-reborn/proprietary_vendor_xiaomi_camera",
         "target_path":  "vendor/xiaomi/camera",
         "revision":     "topaz-leica"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/CertifiedPropsOverlay",
+        "target_path":  "vendor/aospa/apps/CertifiedPropsOverlay",
+        "revision":     "main"
     }
 ]
