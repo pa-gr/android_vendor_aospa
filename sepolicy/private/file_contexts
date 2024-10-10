@@ -3,3 +3,6 @@
 
 # Pocket Judge
 /sys/kernel/pocket_judge(/.*)?	        u:object_r:pocket_judge_sysfs:s0
+
+# FS
+/system/bin/fsck\.ntfs                  u:object_r:fsck_exec:s0
