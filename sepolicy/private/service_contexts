@@ -12,3 +12,6 @@ lineagehealth                               u:object_r:lineage_health_interface_
 
 # App lock
 app_lock                                    u:object_r:app_lock_service:s0
+
+# PIH
+pih_manager                                 u:object_r:pih_manager_service:s0
