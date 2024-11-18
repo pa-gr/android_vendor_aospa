@@ -20,6 +20,12 @@
         <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
     </install-in-user-type>
 
+    <!--  Launcher3  -->
+    <install-in-user-type package="com.android.launcher3">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+    </install-in-user-type>
+
     <!--  LinkToWindows  -->
     <install-in-user-type package="com.microsoft.appmanager">
         <install-in user-type="SYSTEM" />
@@ -38,6 +44,22 @@
         <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
     </install-in-user-type>
 
+    <!--  PIH Service  -->
+    <install-in-user-type package="co.aospa.pih.service">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
+    <!--  Paranoid Doze  -->
+    <install-in-user-type package="co.aospa.doze">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
+    <!--  ThemePicker  -->
+    <install-in-user-type package="com.android.wallpaperpicker">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+    </install-in-user-type>
+
     <!--  Xiaomi Camera  -->
     <install-in-user-type package="com.android.camera">
         <install-in user-type="SYSTEM" />
@@ -46,4 +68,41 @@
         <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
         <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
     </install-in-user-type>
+
+    <!--  Xiaomi Dolby  -->
+    <install-in-user-type package="co.aospa.dolby.xiaomi">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
+    <!--  Xiaomi Parts  -->
+    <install-in-user-type package="co.aospa.xiaomiparts">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+
+    <!-- Below ones override pixel sysconfigs -->
+
+    <!--  Drive (Drive) -->
+    <install-in-user-type package="com.google.android.apps.docs">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+    </install-in-user-type>
+
+    <!-- Maps (Maps) -->
+    <install-in-user-type package="com.google.android.apps.maps">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+    </install-in-user-type>
+
+    <!-- Well being app. Loaded from vendor/google/products/pixel_experience_2017_and_newer.mk-->
+    <install-in-user-type package="com.google.android.apps.wellbeing">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+    </install-in-user-type>
+
 </config>
