@@ -48,6 +48,9 @@
     <color name="system_accent2_1000">#ff000000</color>
     <color name="system_accent3_1000">#ff000000</color>
 
+    <color name="system_accent2_800">#191919</color>
+    <color name="system_accent3_800">#191919</color>
+
     <color name="system_surface_bright_dark">#171717</color>
     <color name="system_surface_container_dark">#000000</color>
     <color name="system_surface_container_high_dark">#171717</color>
