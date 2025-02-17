@@ -21,3 +21,4 @@ allow system_server zygote_tmpfs:file rw_file_perms;
 
 # PIH
 add_service(system_server, pih_manager_service);
+get_prop(system_server, pih_features_prop)

@@ -1,1 +1,2 @@
-set_prop(gmscore_app, system_prop)
+get_prop(gmscore_app, pih_features_prop)
+set_prop(gmscore_app, pih_build_prop)

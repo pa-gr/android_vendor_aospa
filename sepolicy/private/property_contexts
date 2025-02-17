@@ -1,5 +1,7 @@
 # PIHooks
-persist.sys.pihooks.disable.            u:object_r:pih_disable_prop:s0
+persist.sys.pihooks.enabled_features    u:object_r:pih_features_prop:s0
+persist.sys.pihooks.security_patch      u:object_r:pih_build_prop:s0
+persist.sys.pihooks.first_api_level     u:object_r:pih_build_prop:s0
 
 # Tethering
 persist.device_config.tethering.        u:object_r:device_config_tethering_prop:s0
