@@ -128,6 +128,9 @@ if [ $AOSPA_USER_VERSION ]; then
     fi
 fi
 
+# Set build number
+export BUILD_NUMBER=$(date '+%Y%m%d.%H%M%S')
+
 # Initializationizing!
 echo -e "${CLR_BLD_BLU}Setting up the environment${CLR_RST}"
 echo -e ""
