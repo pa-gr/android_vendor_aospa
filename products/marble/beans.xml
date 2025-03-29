@@ -6,13 +6,13 @@
 <manifest>
   <include name="../platforms/taro.xml" />
 
-  <project path="device/xiaomi/marble" name="AOSPA/android_device_xiaomi_marble" remote="aospa" revision="vauxite" />
-  <project path="device/xiaomi/marble-kernel" name="AOSPA/android_device_xiaomi_marble-kernel" remote="aospa" revision="vauxite" clone-depth="1" />
-  <project path="device/xiaomi/sm8450-common" name="AOSPA/android_device_xiaomi_sm8450-common" remote="aospa" revision="vauxite" />
+  <project path="device/xiaomi/marble" name="adithya2306/device_xiaomi_marble" remote="github-ssh" revision="vauxite" />
+  <project path="device/xiaomi/marble-kernel" name="adithya2306/device_xiaomi_marble-kernel" remote="github-ssh" revision="vauxite" />
+  <project path="device/xiaomi/sm8450-common" name="adithya2306/device_xiaomi_sm8450-common" remote="github-ssh" revision="vauxite" />
   <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="vauxite" />
   <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="vauxite-8450" />
   <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="vauxite-8450" />
-  <project path="vendor/xiaomi/marble" name="proprietary_vendor_xiaomi_marble" remote="blobs" revision="vauxite" clone-depth="1" />
-  <project path="vendor/xiaomi/sm8450-common" name="proprietary_vendor_xiaomi_sm8450-common" remote="blobs" revision="vauxite" clone-depth="1" />
-  <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="blobs-gitlab" revision="vauxite-marble" clone-depth="1" />
+  <project path="vendor/xiaomi/marble" name="adithya2306/vendor_xiaomi_marble" remote="github-ssh" revision="vauxite" />
+  <project path="vendor/xiaomi/sm8450-common" name="adithya2306/vendor_xiaomi_sm8450-common" remote="github-ssh" revision="vauxite" />
+  <project path="vendor/xiaomi/camera" name="adithya2306/proprietary_vendor_xiaomi_camera" remote="gitlab" revision="vauxite-marble" clone-depth="1" />
 </manifest>
