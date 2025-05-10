@@ -35,6 +35,10 @@ endif
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.media_vol_steps=30
 
+# AvatarPicker
+PRODUCT_PACKAGES += \
+    AvatarPicker
+
 # Boot Animation
 #$(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
